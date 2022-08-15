@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C102C25528A1E03400F3EB11 /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C25428A1E03400F3EB11 /* SeSACButton.swift */; };
+		C102C25728A1E5F300F3EB11 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C102C25628A1E5F300F3EB11 /* CardView.xib */; };
+		C102C25928A1E63200F3EB11 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C25828A1E63200F3EB11 /* CardView.swift */; };
+		C102C25C28A1F37500F3EB11 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C25A28A1F37500F3EB11 /* CardCollectionViewCell.swift */; };
+		C102C25D28A1F37500F3EB11 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C102C25B28A1F37500F3EB11 /* CardCollectionViewCell.xib */; };
+		C102C25F28A1F65000F3EB11 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C25E28A1F65000F3EB11 /* MainViewController.swift */; };
+		C102C26128A1FC2700F3EB11 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C102C26028A1FC2700F3EB11 /* MainTableViewCell.swift */; };
+		C16DBB5028A5D6AE00099852 /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBB4F28A5D6AE00099852 /* YPImagePicker */; };
+		C16DBB5228A5DD1700099852 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBB5128A5DD1700099852 /* CameraViewController.swift */; };
+		C1AAB44528A4939D00FD17FA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAB44428A4939D00FD17FA /* MapViewController.swift */; };
+		C1D4FF5328A3307C00495514 /* ReusableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FF5228A3307C00495514 /* ReusableViewProtocol.swift */; };
+		C1D4FF5528A343DD00495514 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FF5428A343DD00495514 /* TMDBAPIManager.swift */; };
 		C1F5DE5828A08FF00088C720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE5728A08FF00088C720 /* AppDelegate.swift */; };
 		C1F5DE5A28A08FF00088C720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE5928A08FF00088C720 /* SceneDelegate.swift */; };
 		C1F5DE5C28A08FF00088C720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE5B28A08FF00088C720 /* ViewController.swift */; };
@@ -16,9 +28,26 @@
 		C1F5DE6D28A0901B0088C720 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C1F5DE6C28A0901B0088C720 /* Alamofire */; };
 		C1F5DE7028A090290088C720 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C1F5DE6F28A090290088C720 /* SwiftyJSON */; };
 		C1F5DE7328A090340088C720 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C1F5DE7228A090340088C720 /* Kingfisher */; };
+		C1F5DE7528A090D70088C720 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C1F5DE7428A090D70088C720 /* .gitignore */; };
+		C1F5DE7728A091170088C720 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE7628A091170088C720 /* APIKey.swift */; };
+		C1F5DE7A28A0949B0088C720 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE7928A0949B0088C720 /* Endpoint.swift */; };
+		C1F5DE7C28A095160088C720 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE7B28A095160088C720 /* URL+Extension.swift */; };
+		C1F5DE7E28A0A7910088C720 /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE7D28A0A7910088C720 /* KakaoAPIManager.swift */; };
+		C1F5DE8028A0AC0A0088C720 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F5DE7F28A0AC0A0088C720 /* ClosureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C102C25428A1E03400F3EB11 /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
+		C102C25628A1E5F300F3EB11 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		C102C25828A1E63200F3EB11 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		C102C25A28A1F37500F3EB11 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		C102C25B28A1F37500F3EB11 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		C102C25E28A1F65000F3EB11 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C102C26028A1FC2700F3EB11 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		C16DBB5128A5DD1700099852 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C1AAB44428A4939D00FD17FA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C1D4FF5228A3307C00495514 /* ReusableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewProtocol.swift; sourceTree = "<group>"; };
+		C1D4FF5428A343DD00495514 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
 		C1F5DE5428A08FF00088C720 /* SeSACWeek6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F5DE5728A08FF00088C720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1F5DE5928A08FF00088C720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +56,12 @@
 		C1F5DE6028A08FF10088C720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1F5DE6328A08FF10088C720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1F5DE6528A08FF10088C720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F5DE7428A090D70088C720 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C1F5DE7628A091170088C720 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		C1F5DE7928A0949B0088C720 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C1F5DE7B28A095160088C720 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		C1F5DE7D28A0A7910088C720 /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
+		C1F5DE7F28A0AC0A0088C720 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,15 +72,39 @@
 				C1F5DE7328A090340088C720 /* Kingfisher in Frameworks */,
 				C1F5DE7028A090290088C720 /* SwiftyJSON in Frameworks */,
 				C1F5DE6D28A0901B0088C720 /* Alamofire in Frameworks */,
+				C16DBB5028A5D6AE00099852 /* YPImagePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C102C25328A1DFE500F3EB11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C102C25E28A1F65000F3EB11 /* MainViewController.swift */,
+				C102C26028A1FC2700F3EB11 /* MainTableViewCell.swift */,
+				C102C25B28A1F37500F3EB11 /* CardCollectionViewCell.xib */,
+				C102C25A28A1F37500F3EB11 /* CardCollectionViewCell.swift */,
+				C102C25628A1E5F300F3EB11 /* CardView.xib */,
+				C102C25828A1E63200F3EB11 /* CardView.swift */,
+				C102C25428A1E03400F3EB11 /* SeSACButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1D4FF5128A3306700495514 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4FF5228A3307C00495514 /* ReusableViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		C1F5DE4B28A08FF00088C720 = {
 			isa = PBXGroup;
 			children = (
+				C1F5DE7428A090D70088C720 /* .gitignore */,
 				C1F5DE5628A08FF00088C720 /* SeSACWeek6 */,
 				C1F5DE5528A08FF00088C720 /* Products */,
 			);
@@ -62,15 +121,33 @@
 		C1F5DE5628A08FF00088C720 /* SeSACWeek6 */ = {
 			isa = PBXGroup;
 			children = (
+				C1D4FF5128A3306700495514 /* Protocol */,
+				C102C25328A1DFE500F3EB11 /* View */,
+				C1F5DE7828A094850088C720 /* Network */,
 				C1F5DE5728A08FF00088C720 /* AppDelegate.swift */,
 				C1F5DE5928A08FF00088C720 /* SceneDelegate.swift */,
 				C1F5DE5B28A08FF00088C720 /* ViewController.swift */,
 				C1F5DE5D28A08FF00088C720 /* Main.storyboard */,
+				C16DBB5128A5DD1700099852 /* CameraViewController.swift */,
+				C1AAB44428A4939D00FD17FA /* MapViewController.swift */,
+				C1F5DE7F28A0AC0A0088C720 /* ClosureViewController.swift */,
 				C1F5DE6028A08FF10088C720 /* Assets.xcassets */,
 				C1F5DE6228A08FF10088C720 /* LaunchScreen.storyboard */,
 				C1F5DE6528A08FF10088C720 /* Info.plist */,
+				C1F5DE7628A091170088C720 /* APIKey.swift */,
 			);
 			path = SeSACWeek6;
+			sourceTree = "<group>";
+		};
+		C1F5DE7828A094850088C720 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C1F5DE7928A0949B0088C720 /* Endpoint.swift */,
+				C1F5DE7B28A095160088C720 /* URL+Extension.swift */,
+				C1F5DE7D28A0A7910088C720 /* KakaoAPIManager.swift */,
+				C1D4FF5428A343DD00495514 /* TMDBAPIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +170,7 @@
 				C1F5DE6C28A0901B0088C720 /* Alamofire */,
 				C1F5DE6F28A090290088C720 /* SwiftyJSON */,
 				C1F5DE7228A090340088C720 /* Kingfisher */,
+				C16DBB4F28A5D6AE00099852 /* YPImagePicker */,
 			);
 			productName = SeSACWeek6;
 			productReference = C1F5DE5428A08FF00088C720 /* SeSACWeek6.app */;
@@ -126,6 +204,7 @@
 				C1F5DE6B28A0901B0088C720 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				C1F5DE6E28A090290088C720 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				C1F5DE7128A090340088C720 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C16DBB4E28A5D6AE00099852 /* XCRemoteSwiftPackageReference "YPImagePicker" */,
 			);
 			productRefGroup = C1F5DE5528A08FF00088C720 /* Products */;
 			projectDirPath = "";
@@ -141,8 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1F5DE7528A090D70088C720 /* .gitignore in Resources */,
 				C1F5DE6428A08FF10088C720 /* LaunchScreen.storyboard in Resources */,
+				C102C25728A1E5F300F3EB11 /* CardView.xib in Resources */,
 				C1F5DE6128A08FF10088C720 /* Assets.xcassets in Resources */,
+				C102C25D28A1F37500F3EB11 /* CardCollectionViewCell.xib in Resources */,
 				C1F5DE5F28A08FF00088C720 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +236,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C102C26128A1FC2700F3EB11 /* MainTableViewCell.swift in Sources */,
 				C1F5DE5C28A08FF00088C720 /* ViewController.swift in Sources */,
 				C1F5DE5828A08FF00088C720 /* AppDelegate.swift in Sources */,
+				C16DBB5228A5DD1700099852 /* CameraViewController.swift in Sources */,
+				C1F5DE8028A0AC0A0088C720 /* ClosureViewController.swift in Sources */,
+				C102C25F28A1F65000F3EB11 /* MainViewController.swift in Sources */,
+				C102C25C28A1F37500F3EB11 /* CardCollectionViewCell.swift in Sources */,
+				C1F5DE7728A091170088C720 /* APIKey.swift in Sources */,
+				C102C25928A1E63200F3EB11 /* CardView.swift in Sources */,
 				C1F5DE5A28A08FF00088C720 /* SceneDelegate.swift in Sources */,
+				C102C25528A1E03400F3EB11 /* SeSACButton.swift in Sources */,
+				C1F5DE7E28A0A7910088C720 /* KakaoAPIManager.swift in Sources */,
+				C1D4FF5328A3307C00495514 /* ReusableViewProtocol.swift in Sources */,
+				C1F5DE7A28A0949B0088C720 /* Endpoint.swift in Sources */,
+				C1D4FF5528A343DD00495514 /* TMDBAPIManager.swift in Sources */,
+				C1F5DE7C28A095160088C720 /* URL+Extension.swift in Sources */,
+				C1AAB44528A4939D00FD17FA /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54R3763M9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 54R3763M9G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek6/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -374,6 +472,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C16DBB4E28A5D6AE00099852 /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		C1F5DE6B28A0901B0088C720 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -401,6 +507,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C16DBB4F28A5D6AE00099852 /* YPImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBB4E28A5D6AE00099852 /* XCRemoteSwiftPackageReference "YPImagePicker" */;
+			productName = YPImagePicker;
+		};
 		C1F5DE6C28A0901B0088C720 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C1F5DE6B28A0901B0088C720 /* XCRemoteSwiftPackageReference "Alamofire" */;
